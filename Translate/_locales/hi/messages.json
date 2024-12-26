@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "सहज अनुवादक",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "एक सहज अनुवाद एक्सटेंशन जो आपके ब्राउज़र की थीम और भाषा के अनुकूल है",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "सहज अनुवादक",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "स्रोत भाषा",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "लक्षित भाषा",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "अनुवाद करें",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "सेटिंग्स",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "कॉपी करें",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "भाषाएं बदलें",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "स्वतः पहचान",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "अनुवाद हो रहा है...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "अनुवाद विफल रहा। कृपया पुनः प्रयास करें।",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "कॉपी किया गया!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "बंद करें",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "स्रोत टेक्स्ट कॉपी करें",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "स्रोत टेक्स्ट सुनें",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "अनुवाद कॉपी करें",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "अनुवाद सुनें/रोकें",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "चयन का अनुवाद करें",
+    "description": "Context menu translation option"
+  }
+}

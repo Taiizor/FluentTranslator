@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Flydende Oversætter",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "En flydende oversættelsesudvidelse, der tilpasser sig din browsers tema og sprog",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Flydende Oversætter",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Kildesprog",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Målsprog",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Oversæt",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Indstillinger",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopiér",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Byt sprog",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Automatisk registrering",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Oversætter...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Oversættelse mislykkedes. Prøv igen.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Kopieret!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Luk",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Kopiér kildetekst",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Lyt til kildetekst",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Kopiér oversættelse",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Lyt til/stop oversættelse",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Oversæt markeret tekst",
+    "description": "Context menu translation option"
+  }
+}

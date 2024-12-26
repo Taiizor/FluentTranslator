@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Səlis Tərcüməçi",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Brauzerinizin mövzusuna və dilinə uyğunlaşan səlis tərcümə uzantısı",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Səlis Tərcüməçi",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Mənbə dili",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Hədəf dili",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Tərcümə et",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Parametrlər",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopyala",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Dilləri dəyiş",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Avtomatik aşkar et",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Tərcümə edilir...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Tərcümə uğursuz oldu. Zəhmət olmasa yenidən cəhd edin.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Kopyalandı!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Bağla",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Mənbə mətni kopyala",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Mənbə mətnə qulaq as",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Tərcüməni kopyala",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Tərcüməni dinlə/dayandır",
+    "description": "Listen to translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Seçilmiş Mətni Tərcümə Et",
+    "description": "Context menu translation option"
+  }
+}

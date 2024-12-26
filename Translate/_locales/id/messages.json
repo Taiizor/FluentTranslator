@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Penerjemah Lancar",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Ekstensi terjemahan lancar yang menyesuaikan dengan tema dan bahasa browser Anda",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Penerjemah Lancar",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Bahasa Sumber",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Bahasa Target",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Terjemahkan",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Pengaturan",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Salin",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Tukar Bahasa",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Deteksi Otomatis",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Menerjemahkan...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Terjemahan gagal. Silakan coba lagi.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Tersalin!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Tutup",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Salin teks sumber",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Dengarkan teks sumber",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Salin terjemahan",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Dengarkan/hentikan terjemahan",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Terjemahkan Pilihan",
+    "description": "Context menu translation option"
+  }
+}

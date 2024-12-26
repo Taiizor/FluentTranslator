@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <title data-i18n="popupTitle">Fluent Translator</title>
+    <script src="../../assets/scripts/tailwind.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 h-[500px] w-[600px] overflow-hidden transition-all duration-300">
+    <div class="h-full w-full p-4">
+        <div class="backdrop-blur-lg bg-white/80 dark:bg-gray-800/80 rounded-2xl shadow-2xl p-6 border border-gray-200/50 dark:border-gray-700/50 h-full">
+            <div class="flex justify-between items-center mb-4">
+                <h1 class="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent" data-i18n="popupTitle">Fluent Translator</h1>
+                <div class="relative">
+                    <label class="flex items-center cursor-pointer">
+                        <div class="relative">
+                            <label class="flex items-center cursor-pointer">
+                                <div class="relative">
+                                    <input type="checkbox" id="theme-switch" class="sr-only">
+                                    <div class="block w-14 h-8 rounded-full bg-purple-100 dark:bg-gray-700 transition-colors duration-300"></div>
+                                    <div class="dot absolute left-1 top-1 bg-white dark:bg-purple-500 w-6 h-6 rounded-full transition-all duration-300 flex items-center justify-center shadow-md">
+                                        <!-- Light mode icon -->
+                                        <svg class="w-4 h-4 text-yellow-500 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"/>
+                                        </svg>
+                                        <!-- Dark mode icon -->
+                                        <svg class="w-4 h-4 text-white hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-[1fr,auto,1fr] gap-4 h-[calc(100%-6rem)]">
+                <div class="input-section flex flex-col space-y-2">
+                    <select id="sourceLanguage" class="w-full p-2 bg-gray-50/50 dark:bg-gray-700/50 border-2 border-gray-200 dark:border-gray-600 rounded-xl text-gray-700 dark:text-gray-200 focus:border-blue-500 dark:focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 transition-all duration-300"></select>
+                    <textarea id="sourceText" placeholder="Enter text to translate" class="flex-1 p-3 bg-gray-50/50 dark:bg-gray-700/50 border-2 border-gray-200 dark:border-gray-600 rounded-xl text-gray-700 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 focus:border-blue-500 dark:focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 resize-none transition-all duration-300"></textarea>
+                </div>
+                
+                <div class="flex flex-col justify-center">
+                    <button id="swapLanguages" class="p-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 dark:from-blue-400 dark:to-purple-400 dark:hover:from-blue-500 dark:hover:to-purple-500 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="output-section flex flex-col space-y-2">
+                    <select id="targetLanguage" class="w-full p-2 bg-gray-50/50 dark:bg-gray-700/50 border-2 border-gray-200 dark:border-gray-600 rounded-xl text-gray-700 dark:text-gray-200 focus:border-blue-500 dark:focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 transition-all duration-300"></select>
+                    <textarea id="translatedText" readonly class="flex-1 p-3 bg-gray-50/50 dark:bg-gray-700/50 border-2 border-gray-200 dark:border-gray-600 rounded-xl text-gray-700 dark:text-gray-200 resize-none transition-all duration-300 cursor-default focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20"></textarea>
+                </div>
+            </div>
+            
+            <div class="flex space-x-4 mt-4">
+                <button id="translateBtn" class="flex-1 py-2 px-4 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 dark:from-blue-400 dark:to-purple-400 dark:hover:from-blue-500 dark:hover:to-purple-500 text-white font-medium rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 dark:focus:ring-blue-400/50" data-i18n="translateButton">Translate</button>
+                <button id="copyBtn" class="flex-1 py-2 px-4 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 font-medium rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500/50 dark:focus:ring-gray-400/50" data-i18n="copyButton">Copy</button>
+            </div>
+        </div>
+    </div>
+    <script src="../utils/languages.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

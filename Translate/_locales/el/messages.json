@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Ευέλικτος Μεταφραστής",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Μια ευέλικτη επέκταση μετάφρασης που προσαρμόζεται στο θέμα και τη γλώσσα του προγράμματος περιήγησής σας",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ευέλικτος Μεταφραστής",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Γλώσσα προέλευσης",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Γλώσσα στόχος",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Μετάφραση",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Ρυθμίσεις",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Αντιγραφή",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Εναλλαγή γλωσσών",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Αυτόματη ανίχνευση",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Μετάφραση...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Η μετάφραση απέτυχε. Παρακαλώ δοκιμάστε ξανά.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Αντιγράφηκε!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Κλείσιμο",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Αντιγραφή αρχικού κειμένου",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Ακρόαση αρχικού κειμένου",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Αντιγραφή μετάφρασης",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Ακρόαση/διακοπή μετάφρασης",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Μετάφραση επιλεγμένου κειμένου",
+    "description": "Context menu translation option"
+  }
+}

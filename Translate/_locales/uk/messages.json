@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "Плавний Перекладач",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Плавне розширення для перекладу, яке адаптується до теми та мови вашого браузера",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Плавний Перекладач",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Вихідна мова",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Цільова мова",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Перекласти",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Налаштування",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Копіювати",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Поміняти мови",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Автоматичне визначення",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Перекладається...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Переклад не вдався. Будь ласка, спробуйте ще раз.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Скопійовано!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Закрити",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Копіювати вихідний текст",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Прослухати вихідний текст",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Копіювати переклад",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Прослухати переклад",
+    "description": "Listen to translation button tooltip"
+  }
+}

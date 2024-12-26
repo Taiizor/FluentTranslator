@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Traduttore Fluente",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Un'estensione di traduzione fluente che si adatta al tema e alla lingua del tuo browser",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Traduttore Fluente",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Lingua di origine",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Lingua di destinazione",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Traduci",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Impostazioni",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Copia",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Scambia lingue",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Rilevamento automatico",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Traduzione in corso...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Traduzione fallita. Per favore riprova.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Copiato!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Chiudi",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Copia testo originale",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Ascolta testo originale",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Copia traduzione",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Ascolta/ferma traduzione",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Traduci selezione",
+    "description": "Context menu translation option"
+  }
+}

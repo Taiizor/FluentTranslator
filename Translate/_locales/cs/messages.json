@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Plynulý Překladač",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Plynulé překladové rozšíření, které se přizpůsobuje motivu a jazyku vašeho prohlížeče",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Plynulý Překladač",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Zdrojový jazyk",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Cílový jazyk",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Přeložit",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Nastavení",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopírovat",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Prohodit jazyky",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Automatická detekce",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Překládání...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Překlad selhal. Prosím zkuste to znovu.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Zkopírováno!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Zavřít",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Kopírovat zdrojový text",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Poslechnout zdrojový text",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Kopírovat překlad",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Poslechnout/zastavit překlad",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Přeložit vybraný text",
+    "description": "Context menu translation option"
+  }
+}

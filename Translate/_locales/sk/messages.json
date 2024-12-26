@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "Plynulý Prekladač",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Plynulé prekladové rozšírenie, ktoré sa prispôsobuje téme a jazyku vášho prehliadača",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Plynulý Prekladač",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Zdrojový jazyk",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Cieľový jazyk",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Preložiť",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Nastavenia",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopírovať",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Vymeniť jazyky",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Automatická detekcia",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Prekladá sa...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Preklad zlyhal. Skúste to znova.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Skopírované!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Zavrieť",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Kopírovať zdrojový text",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Vypočuť zdrojový text",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Kopírovať preklad",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Vypočuť preklad",
+    "description": "Listen to translation button tooltip"
+  }
+}

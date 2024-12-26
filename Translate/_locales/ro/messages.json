@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "Traducător Fluent",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "O extensie de traducere fluentă care se adaptează la tema și limba browserului dvs.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Traducător Fluent",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Limba sursă",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Limba țintă",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Traduceți",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Setări",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Copiați",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Schimbați limbile",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Detectare automată",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Se traduce...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Traducerea a eșuat. Vă rugăm să încercați din nou.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Copiat!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Închideți",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Copiați textul sursă",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Ascultați textul sursă",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Copiați traducerea",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Ascultați traducerea",
+    "description": "Listen to translation button tooltip"
+  }
+}

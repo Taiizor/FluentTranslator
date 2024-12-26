@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "นักแปลที่คล่องแคล่ว",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "ส่วนขยายการแปลที่คล่องแคล่วซึ่งปรับตัวตามธีมและภาษาของเบราว์เซอร์ของคุณ",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "นักแปลที่คล่องแคล่ว",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "ภาษาต้นฉบับ",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ภาษาเป้าหมาย",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "แปล",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "การตั้งค่า",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "คัดลอก",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "สลับภาษา",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "ตรวจจับอัตโนมัติ",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "กำลังแปล...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "การแปลล้มเหลว โปรดลองอีกครั้ง",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "คัดลอกแล้ว!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "ปิด",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "คัดลอกข้อความต้นฉบับ",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "ฟังข้อความต้นฉบับ",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "คัดลอกคำแปล",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "ฟังคำแปล",
+    "description": "Listen to translation button tooltip"
+  }
+}

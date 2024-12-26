@@ -1,0 +1,498 @@
+{
+  "extName": {
+    "message": "Akıcı Çevirmen",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Tarayıcınızın temasına ve diline uyum sağlayan akıcı çeviri eklentisi",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Akıcı Çevirmen",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Kaynak Dil",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Hedef Dil",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Çevir",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Ayarlar",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopyala",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Dilleri Değiştir",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Otomatik Algıla",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Çevriliyor...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Çeviri başarısız oldu. Lütfen tekrar deneyin.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Kopyalandı!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Kapat",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Orijinal metni kopyala",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Orijinal metni dinle/durdur",
+    "description": "Listen source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Çeviriyi kopyala",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Çeviriyi dinle/durdur",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Seçili Metni Çevir",
+    "description": "Context menu translation option"
+  },
+  "langAfrikaans": {
+    "message": "Afrikaanca",
+    "description": "Afrikaans language name"
+  },
+  "langAlbanian": {
+    "message": "Arnavutça",
+    "description": "Albanian language name"
+  },
+  "langArabic": {
+    "message": "Arapça",
+    "description": "Arabic language name"
+  },
+  "langArmenian": {
+    "message": "Ermenice",
+    "description": "Armenian language name"
+  },
+  "langAzerbaijani": {
+    "message": "Azerice",
+    "description": "Azerbaijani language name"
+  },
+  "langBasque": {
+    "message": "Baskça",
+    "description": "Basque language name"
+  },
+  "langBelarusian": {
+    "message": "Belarusça",
+    "description": "Belarusian language name"
+  },
+  "langBengali": {
+    "message": "Bengalce",
+    "description": "Bengali language name"
+  },
+  "langBosnian": {
+    "message": "Boşnakça",
+    "description": "Bosnian language name"
+  },
+  "langBulgarian": {
+    "message": "Bulgarca",
+    "description": "Bulgarian language name"
+  },
+  "langCatalan": {
+    "message": "Katalanca",
+    "description": "Catalan language name"
+  },
+  "langCebuano": {
+    "message": "Sebuanca",
+    "description": "Cebuano language name"
+  },
+  "langChineseSimp": {
+    "message": "Çince (Basitleştirilmiş)",
+    "description": "Simplified Chinese language name"
+  },
+  "langChineseTrad": {
+    "message": "Çince (Geleneksel)",
+    "description": "Traditional Chinese language name"
+  },
+  "langCroatian": {
+    "message": "Hırvatça",
+    "description": "Croatian language name"
+  },
+  "langCzech": {
+    "message": "Çekçe",
+    "description": "Czech language name"
+  },
+  "langDanish": {
+    "message": "Danca",
+    "description": "Danish language name"
+  },
+  "langDutch": {
+    "message": "Hollandaca",
+    "description": "Dutch language name"
+  },
+  "langEnglish": {
+    "message": "İngilizce",
+    "description": "English language name"
+  },
+  "langEsperanto": {
+    "message": "Esperanto",
+    "description": "Esperanto language name"
+  },
+  "langEstonian": {
+    "message": "Estonca",
+    "description": "Estonian language name"
+  },
+  "langFinnish": {
+    "message": "Fince",
+    "description": "Finnish language name"
+  },
+  "langFrench": {
+    "message": "Fransızca",
+    "description": "French language name"
+  },
+  "langGalician": {
+    "message": "Galiçyaca",
+    "description": "Galician language name"
+  },
+  "langGeorgian": {
+    "message": "Gürcüce",
+    "description": "Georgian language name"
+  },
+  "langGerman": {
+    "message": "Almanca",
+    "description": "German language name"
+  },
+  "langGreek": {
+    "message": "Yunanca",
+    "description": "Greek language name"
+  },
+  "langGujarati": {
+    "message": "Gujaratice",
+    "description": "Gujarati language name"
+  },
+  "langHaitianCreole": {
+    "message": "Haiti Kreyolu",
+    "description": "Haitian Creole language name"
+  },
+  "langHausa": {
+    "message": "Hausaca",
+    "description": "Hausa language name"
+  },
+  "langHawaiian": {
+    "message": "Hawaiice",
+    "description": "Hawaiian language name"
+  },
+  "langHebrew": {
+    "message": "İbranice",
+    "description": "Hebrew language name"
+  },
+  "langHindi": {
+    "message": "Hintçe",
+    "description": "Hindi language name"
+  },
+  "langHmong": {
+    "message": "Hmongca",
+    "description": "Hmong language name"
+  },
+  "langHungarian": {
+    "message": "Macarca",
+    "description": "Hungarian language name"
+  },
+  "langIcelandic": {
+    "message": "İzlandaca",
+    "description": "Icelandic language name"
+  },
+  "langIgbo": {
+    "message": "İgboca",
+    "description": "Igbo language name"
+  },
+  "langIndonesian": {
+    "message": "Endonezce",
+    "description": "Indonesian language name"
+  },
+  "langIrish": {
+    "message": "İrlandaca",
+    "description": "Irish language name"
+  },
+  "langItalian": {
+    "message": "İtalyanca",
+    "description": "Italian language name"
+  },
+  "langJapanese": {
+    "message": "Japonca",
+    "description": "Japanese language name"
+  },
+  "langJavanese": {
+    "message": "Cavaca",
+    "description": "Javanese language name"
+  },
+  "langKannada": {
+    "message": "Kannadaca",
+    "description": "Kannada language name"
+  },
+  "langKazakh": {
+    "message": "Kazakça",
+    "description": "Kazakh language name"
+  },
+  "langKhmer": {
+    "message": "Kmerce",
+    "description": "Khmer language name"
+  },
+  "langKorean": {
+    "message": "Korece",
+    "description": "Korean language name"
+  },
+  "langKurdish": {
+    "message": "Kürtçe",
+    "description": "Kurdish language name"
+  },
+  "langKyrgyz": {
+    "message": "Kırgızca",
+    "description": "Kyrgyz language name"
+  },
+  "langLao": {
+    "message": "Laoca",
+    "description": "Lao language name"
+  },
+  "langLatin": {
+    "message": "Latince",
+    "description": "Latin language name"
+  },
+  "langLatvian": {
+    "message": "Letonca",
+    "description": "Latvian language name"
+  },
+  "langLithuanian": {
+    "message": "Litvanca",
+    "description": "Lithuanian language name"
+  },
+  "langLuxembourgish": {
+    "message": "Lüksemburgca",
+    "description": "Luxembourgish language name"
+  },
+  "langMacedonian": {
+    "message": "Makedonca",
+    "description": "Macedonian language name"
+  },
+  "langMalagasy": {
+    "message": "Malgaşça",
+    "description": "Malagasy language name"
+  },
+  "langMalay": {
+    "message": "Malayca",
+    "description": "Malay language name"
+  },
+  "langMalayalam": {
+    "message": "Malayalamca",
+    "description": "Malayalam language name"
+  },
+  "langMaltese": {
+    "message": "Maltaca",
+    "description": "Maltese language name"
+  },
+  "langMaori": {
+    "message": "Maorice",
+    "description": "Maori language name"
+  },
+  "langMarathi": {
+    "message": "Maratice",
+    "description": "Marathi language name"
+  },
+  "langMongolian": {
+    "message": "Moğolca",
+    "description": "Mongolian language name"
+  },
+  "langMyanmar": {
+    "message": "Birmanca",
+    "description": "Myanmar (Burmese) language name"
+  },
+  "langNepali": {
+    "message": "Nepalce",
+    "description": "Nepali language name"
+  },
+  "langNorwegian": {
+    "message": "Norveççe",
+    "description": "Norwegian language name"
+  },
+  "langNyanja": {
+    "message": "Nyanjaca",
+    "description": "Nyanja language name"
+  },
+  "langOdia": {
+    "message": "Odiaca",
+    "description": "Odia language name"
+  },
+  "langPashto": {
+    "message": "Peştuca",
+    "description": "Pashto language name"
+  },
+  "langPersian": {
+    "message": "Farsça",
+    "description": "Persian language name"
+  },
+  "langPolish": {
+    "message": "Lehçe",
+    "description": "Polish language name"
+  },
+  "langPortuguese": {
+    "message": "Portekizce",
+    "description": "Portuguese language name"
+  },
+  "langPunjabi": {
+    "message": "Pencapça",
+    "description": "Punjabi language name"
+  },
+  "langRomanian": {
+    "message": "Romence",
+    "description": "Romanian language name"
+  },
+  "langRussian": {
+    "message": "Rusça",
+    "description": "Russian language name"
+  },
+  "langSamoan": {
+    "message": "Samoaca",
+    "description": "Samoan language name"
+  },
+  "langScotsGaelic": {
+    "message": "İskoç Galcesi",
+    "description": "Scots Gaelic language name"
+  },
+  "langSerbian": {
+    "message": "Sırpça",
+    "description": "Serbian language name"
+  },
+  "langSesotho": {
+    "message": "Sesotoca",
+    "description": "Sesotho language name"
+  },
+  "langShona": {
+    "message": "Şonaca",
+    "description": "Shona language name"
+  },
+  "langSindhi": {
+    "message": "Sintçe",
+    "description": "Sindhi language name"
+  },
+  "langSinhala": {
+    "message": "Seylanca",
+    "description": "Sinhala language name"
+  },
+  "langSlovak": {
+    "message": "Slovakça",
+    "description": "Slovak language name"
+  },
+  "langSlovenian": {
+    "message": "Slovence",
+    "description": "Slovenian language name"
+  },
+  "langSomali": {
+    "message": "Somalice",
+    "description": "Somali language name"
+  },
+  "langSpanish": {
+    "message": "İspanyolca",
+    "description": "Spanish language name"
+  },
+  "langSundanese": {
+    "message": "Sundaca",
+    "description": "Sundanese language name"
+  },
+  "langSwahili": {
+    "message": "Svahilice",
+    "description": "Swahili language name"
+  },
+  "langSwedish": {
+    "message": "İsveççe",
+    "description": "Swedish language name"
+  },
+  "langTagalog": {
+    "message": "Tagalogca",
+    "description": "Tagalog language name"
+  },
+  "langTajik": {
+    "message": "Tacikçe",
+    "description": "Tajik language name"
+  },
+  "langTamil": {
+    "message": "Tamilce",
+    "description": "Tamil language name"
+  },
+  "langTatar": {
+    "message": "Tatarca",
+    "description": "Tatar language name"
+  },
+  "langTelugu": {
+    "message": "Teluguca",
+    "description": "Telugu language name"
+  },
+  "langThai": {
+    "message": "Tayca",
+    "description": "Thai language name"
+  },
+  "langTurkish": {
+    "message": "Türkçe",
+    "description": "Turkish language name"
+  },
+  "langTurkmen": {
+    "message": "Türkmence",
+    "description": "Turkmen language name"
+  },
+  "langUkrainian": {
+    "message": "Ukraynaca",
+    "description": "Ukrainian language name"
+  },
+  "langUrdu": {
+    "message": "Urduca",
+    "description": "Urdu language name"
+  },
+  "langUyghur": {
+    "message": "Uygurca",
+    "description": "Uyghur language name"
+  },
+  "langUzbek": {
+    "message": "Özbekçe",
+    "description": "Uzbek language name"
+  },
+  "langVietnamese": {
+    "message": "Vietnamca",
+    "description": "Vietnamese language name"
+  },
+  "langWelsh": {
+    "message": "Galce",
+    "description": "Welsh language name"
+  },
+  "langXhosa": {
+    "message": "Xhosaca",
+    "description": "Xhosa language name"
+  },
+  "langYiddish": {
+    "message": "Yidiş",
+    "description": "Yiddish language name"
+  },
+  "langYoruba": {
+    "message": "Yorubaca",
+    "description": "Yoruba language name"
+  },
+  "langZulu": {
+    "message": "Zuluca",
+    "description": "Zulu language name"
+  }
+}

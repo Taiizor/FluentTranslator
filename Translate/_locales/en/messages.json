@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Fluent Translator",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "A fluent translation extension that adapts to your browser's theme and language",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Fluent Translator",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Source Language",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Target Language",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Translate",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Settings",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Copy",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Swap Languages",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Auto Detect",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Translating...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Translation failed. Please try again.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Copied!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Close",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Copy original text",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Listen/Stop original text",
+    "description": "Listen source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Copy translation",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Listen/stop translation",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Translate Selection",
+    "description": "Context menu translation option"
+  }
+}

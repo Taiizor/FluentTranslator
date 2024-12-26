@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "المترجم السلس",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "إضافة ترجمة سلسة تتكيف مع سمة ولغة متصفحك",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "المترجم السلس",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "اللغة المصدر",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "اللغة الهدف",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "ترجم",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "الإعدادات",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "نسخ",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "تبديل اللغات",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "كشف تلقائي",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "جاري الترجمة...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "فشلت الترجمة. يرجى المحاولة مرة أخرى.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "تم النسخ!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "إغلاق",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "نسخ النص الأصلي",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "الاستماع إلى النص الأصلي",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "نسخ الترجمة",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "الاستماع إلى الترجمة",
+    "description": "Listen to translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "ترجمة النص الأصلي",
+    "description": "Context menu translation option"
+  }
+}

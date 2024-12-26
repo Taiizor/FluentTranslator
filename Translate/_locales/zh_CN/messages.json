@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "流畅翻译",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "一个适应您浏览器主题和语言的流畅翻译扩展",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "流畅翻译",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "源语言",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "目标语言",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "翻译",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "设置",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "复制",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "交换语言",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "自动检测",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "正在翻译...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "翻译失败。请重试。",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "已复制！",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "关闭",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "复制原文",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "听原文",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "复制翻译",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "听翻译",
+    "description": "Listen to translation button tooltip"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Плавен Преводач",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Плавно разширение за превод, което се адаптира към темата и езика на вашия браузър",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Плавен Преводач",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Изходен език",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Целеви език",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Преведи",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Настройки",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Копирай",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Размени езиците",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Автоматично откриване",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Превежда се...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Преводът не успя. Моля, опитайте отново.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Копирано!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Затвори",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Копирай изходния текст",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Чуй изходния текст",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Копирай превода",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Слушай/спри превода",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Преведи избрания текст",
+    "description": "Context menu translation option"
+  }
+}

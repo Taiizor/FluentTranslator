@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "Flytande Översättare",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Ett flytande översättningstillägg som anpassar sig till din webbläsares tema och språk",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Flytande Översättare",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Källspråk",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Målspråk",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Översätt",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Inställningar",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopiera",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Byt språk",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Automatisk upptäckt",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Översätter...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Översättningen misslyckades. Försök igen.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Kopierat!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Stäng",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Kopiera källtext",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Lyssna på källtext",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Kopiera översättning",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Lyssna på översättning",
+    "description": "Listen to translation button tooltip"
+  }
+}

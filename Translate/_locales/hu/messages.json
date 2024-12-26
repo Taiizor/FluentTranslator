@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Folyékony Fordító",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Egy folyékony fordítási bővítmény, amely alkalmazkodik a böngésző témájához és nyelvéhez",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Folyékony Fordító",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Forrásnyelv",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Célnyelv",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Fordítás",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Beállítások",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Másolás",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Nyelvek cseréje",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Automatikus felismerés",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Fordítás...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "A fordítás sikertelen. Kérjük, próbálja újra.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Másolva!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Bezárás",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Forrászszöveg másolása",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Forrászszöveg meghallgatása",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Fordítás másolása",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Fordítás meghallgatása/leállítása",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Kijelölés fordítása",
+    "description": "Context menu translation option"
+  }
+}

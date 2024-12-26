@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Traducteur Fluide",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Une extension de traduction fluide qui s'adapte au thème et à la langue de votre navigateur",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Traducteur Fluide",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Langue source",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Langue cible",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Traduire",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Paramètres",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Copier",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Échanger les langues",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Détection automatique",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Traduction en cours...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "La traduction a échoué. Veuillez réessayer.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Copié !",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Fermer",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Copier le texte source",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Écouter le texte source",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Copier la traduction",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Écouter/arrêter la traduction",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Traduire la sélection",
+    "description": "Context menu translation option"
+  }
+}

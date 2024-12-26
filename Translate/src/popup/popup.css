@@ -1,0 +1,214 @@
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        url('https://picsum.photos/600/500') center/cover;
+    background-size: 100% 100%, cover;
+    animation: gradientBG 15s ease infinite;
+    z-index: -1;
+    filter: blur(1px);
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237E22CE' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5em;
+    padding-right: 2.5rem;
+}
+
+select option {
+    padding: 0.75rem 1rem;
+    background-color: rgb(249 250 251 / 0.5) !important;
+    color: rgb(55 65 81) !important;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+select option:hover,
+select option:focus,
+select option:active,
+select option:checked,
+select:focus option:hover,
+select:hover option:hover,
+select option:focus-visible {
+    background-color: rgb(126 34 206) !important;
+    color: white !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+
+.dark select {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23A855F7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+}
+
+.dark select option {
+    background-color: rgb(31 41 55 / 0.5) !important;
+    color: rgb(229 231 235) !important;
+}
+
+.dark select option:hover,
+.dark select option:focus,
+.dark select option:active,
+.dark select option:checked,
+.dark select:focus option:hover,
+.dark select:hover option:hover,
+.dark select option:focus-visible {
+    background-color: rgb(126 34 206) !important;
+    color: white !important;
+}
+
+/* Webkit specific styles */
+select::-webkit-listbox {
+    background-color: rgb(249 250 251 / 0.5);
+}
+
+.dark select::-webkit-listbox {
+    background-color: rgb(31 41 55 / 0.5);
+}
+
+/* Firefox specific styles */
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 rgb(55 65 81);
+}
+
+.dark select:-moz-focusring {
+    text-shadow: 0 0 0 rgb(229 231 235);
+}
+
+/* Scrollbar Styles */
+select::-webkit-scrollbar {
+    width: 8px;
+}
+
+select::-webkit-scrollbar-track {
+    background: rgb(243 244 246 / 0.5);
+    border-radius: 4px;
+}
+
+select::-webkit-scrollbar-thumb {
+    background: rgb(126 34 206);
+    border-radius: 4px;
+}
+
+.dark select::-webkit-scrollbar-track {
+    background: rgb(31 41 55 / 0.5);
+}
+
+.dark select::-webkit-scrollbar-thumb {
+    background: rgb(168 85 247);
+}
+
+/* Remove default focus styles */
+select:focus {
+    outline: none;
+}
+
+/* Custom hover effect */
+@media (hover: hover) {
+    select option:hover {
+        background-color: rgb(126 34 206) !important;
+        color: white !important;
+    }
+
+    .dark select option:hover {
+        background-color: rgb(126 34 206) !important;
+        color: white !important;
+    }
+}
+
+/* Light mode scrollbar styles */
+textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: rgba(243, 244, 246, 0.5);
+    border-radius: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(59, 130, 246), rgb(168, 85, 247));
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, rgb(37, 99, 235), rgb(147, 51, 234));
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+/* Dark mode scrollbar styles */
+.dark textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dark textarea::-webkit-scrollbar-track {
+    background: rgba(31, 41, 55, 0.5);
+    border-radius: 8px;
+}
+
+.dark textarea::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(96, 165, 250), rgb(192, 132, 252));
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+.dark textarea::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, rgb(59, 130, 246), rgb(168, 85, 247));
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+/* Firefox scrollbar styles */
+textarea {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(59, 130, 246) rgba(243, 244, 246, 0.5);
+}
+
+.dark textarea {
+    scrollbar-color: rgb(96, 165, 250) rgba(31, 41, 55, 0.5);
+}
+
+/* Disable textarea resize */
+textarea {
+    resize: none;
+}
+
+/* Custom focus styles */
+textarea:focus {
+    outline: none;
+    border-color: rgb(59, 130, 246);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.dark textarea:focus {
+    border-color: rgb(96, 165, 250);
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
+}

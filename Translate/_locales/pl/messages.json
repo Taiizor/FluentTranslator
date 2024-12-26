@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "Płynny Tłumacz",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Płynne rozszerzenie do tłumaczenia, które dostosowuje się do motywu i języka twojej przeglądarki",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Płynny Tłumacz",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Język źródłowy",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Język docelowy",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Tłumacz",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Ustawienia",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopiuj",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Zamień języki",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Wykryj automatycznie",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Tłumaczenie...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Tłumaczenie nie powiodło się. Spróbuj ponownie.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Skopiowano!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Zamknij",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Kopiuj tekst źródłowy",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Odsłuchaj tekst źródłowy",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Kopiuj tłumaczenie",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Odsłuchaj tłumaczenie",
+    "description": "Listen to translation button tooltip"
+  }
+}

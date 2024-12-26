@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Sujuva Kääntäjä",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Sujuva käännöslaajennus, joka mukautuu selaimesi teemaan ja kieleen",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Sujuva Kääntäjä",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Lähdekieli",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Kohdekieli",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Käännä",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Asetukset",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopioi",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Vaihda kielet",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Tunnista automaattisesti",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Käännetään...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Käännös epäonnistui. Yritä uudelleen.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Kopioitu!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Sulje",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Kopioi lähdeteksti",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Kuuntele lähdeteksti",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Kopioi käännös",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Kuuntele/pysäytä käännös",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Käännä valinta",
+    "description": "Context menu translation option"
+  }
+}

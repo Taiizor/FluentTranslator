@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Fließender Übersetzer",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Eine fließende Übersetzungserweiterung, die sich an das Theme und die Sprache Ihres Browsers anpasst",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Fließender Übersetzer",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Ausgangssprache",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Zielsprache",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Übersetzen",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Einstellungen",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopieren",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Sprachen tauschen",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Automatisch erkennen",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Übersetzung läuft...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Übersetzung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Kopiert!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Schließen",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Quelltext kopieren",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Quelltext anhören",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Übersetzung kopieren",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Übersetzung anhören",
+    "description": "Listen to translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Ausgewählten Text übersetzen",
+    "description": "Context menu translation option"
+  }
+}

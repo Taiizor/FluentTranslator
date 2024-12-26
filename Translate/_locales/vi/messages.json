@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "Trình Dịch Trôi Chảy",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Tiện ích dịch trôi chảy thích ứng với chủ đề và ngôn ngữ của trình duyệt của bạn",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Trình Dịch Trôi Chảy",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Ngôn ngữ nguồn",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Ngôn ngữ đích",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Dịch",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Cài đặt",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Sao chép",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Đổi ngôn ngữ",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Tự động phát hiện",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Đang dịch...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Dịch thất bại. Vui lòng thử lại.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Đã sao chép!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Đóng",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Sao chép văn bản gốc",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Nghe văn bản gốc",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Sao chép bản dịch",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Nghe bản dịch",
+    "description": "Listen to translation button tooltip"
+  }
+}

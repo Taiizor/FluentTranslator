@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "מתרגם שוטף",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "תוסף תרגום שוטף המתאים את עצמו לערכת הנושא והשפה של הדפדפן שלך",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "מתרגם שוטף",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "שפת מקור",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "שפת יעד",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "תרגם",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "הגדרות",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "העתק",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "החלף שפות",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "זיהוי אוטומטי",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "מתרגם...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "התרגום נכשל. אנא נסה שוב.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "הועתק!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "סגור",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "העתק טקסט מקור",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "האזן לטקסט מקור",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "העתק תרגום",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "האזן/עצור תרגום",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "תרגם בחירה",
+    "description": "Context menu translation option"
+  }
+}

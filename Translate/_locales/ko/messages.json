@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "유창한 번역기",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "브라우저의 테마와 언어에 맞춰 적응하는 유창한 번역 확장 프로그램",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "유창한 번역기",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "원본 언어",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "대상 언어",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "번역",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "설정",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "복사",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "언어 교체",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "자동 감지",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "번역 중...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "번역에 실패했습니다. 다시 시도해 주세요.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "복사됨!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "닫기",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "원본 텍스트 복사",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "원본 텍스트 듣기",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "번역 복사",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "번역 듣기/중지",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "선택 텍스트 번역",
+    "description": "Context menu translation option"
+  }
+}

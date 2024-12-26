@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Tečni Prevoditelj",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Tečno proširenje za prevođenje koje se prilagođava temi i jeziku vašeg preglednika",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Tečni Prevoditelj",
+    "description": "Title shown in popup"
+  },
+  "sourceLanguage": {
+    "message": "Izvorni jezik",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Ciljni jezik",
+    "description": "Target language label"
+  },
+  "translateButton": {
+    "message": "Prevedi",
+    "description": "Translate button text"
+  },
+  "settingsButton": {
+    "message": "Postavke",
+    "description": "Settings button text"
+  },
+  "copyButton": {
+    "message": "Kopiraj",
+    "description": "Copy button text"
+  },
+  "swapButton": {
+    "message": "Zamijeni jezike",
+    "description": "Swap languages button text"
+  },
+  "autoDetect": {
+    "message": "Automatsko otkrivanje",
+    "description": "Auto detect language option"
+  },
+  "translating": {
+    "message": "Prevođenje...",
+    "description": "Message shown while translating"
+  },
+  "translationFailed": {
+    "message": "Prijevod nije uspio. Molimo pokušajte ponovno.",
+    "description": "Message shown when translation fails"
+  },
+  "copied": {
+    "message": "Kopirano!",
+    "description": "Message shown when text is copied"
+  },
+  "closeButton": {
+    "message": "Zatvori",
+    "description": "Close button tooltip"
+  },
+  "copySourceButton": {
+    "message": "Kopiraj izvorni tekst",
+    "description": "Copy source text button tooltip"
+  },
+  "listenSourceButton": {
+    "message": "Poslušaj izvorni tekst",
+    "description": "Listen to source text button tooltip"
+  },
+  "copyTranslationButton": {
+    "message": "Kopiraj prijevod",
+    "description": "Copy translation button tooltip"
+  },
+  "listenTranslationButton": {
+    "message": "Slušaj/zaustavi prijevod",
+    "description": "Listen translation button tooltip"
+  },
+  "contextMenuTranslate": {
+    "message": "Prevedi odabrano",
+    "description": "Context menu translation option"
+  }
+}
