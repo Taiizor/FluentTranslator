@@ -20,7 +20,7 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 - **Context Menu Translation**: Right-click and translate selected text effortlessly
 - **Page Translation**: Translate entire web pages with a single click
 
-###  🊈 Intelligent Design
+### 🊈 Intelligent Design
 - **Adaptive Theming**: Automatically switches between light and dark modes
 - **Responsive UI**: Clean, modern interface that works across all screen sizes
 - **Multilingual Support**: Interface available in multiple languages
@@ -30,7 +30,7 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 - **Low Resource Consumption**: Lightweight and efficient
 - **Automatic Language Detection**: Intelligently identifies source language
 
-###  🌂 Privacy First
+### 🌂 Privacy First
 - **No Tracking**: We respect your privacy
 - **Secure Connections**: All translations use encrypted connections
 - **No Personal Data Storage**
@@ -74,7 +74,7 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 4. Test the extension in your browser
 5. Submit a pull request
 
-##  🤕 Contributing
+## 🤕 Contributing
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before getting started.
 
 ## 🌄 License
