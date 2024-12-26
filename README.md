@@ -59,6 +59,28 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 4. Click "Load unpacked"
 5. Select the extension directory
 
+## 🖼️ Screenshots
+
+<div align="center">
+  <img src=".screenshots/ScreenShot_20241226070410.png" width="600" alt="FluentTranslator Screenshot 1">
+  <p><em>Main Interface</em></p>
+  
+  <img src=".screenshots/ScreenShot_20241226070441.png" width="600" alt="FluentTranslator Screenshot 2">
+  <p><em>Text Translation</em></p>
+  
+  <img src=".screenshots/ScreenShot_20241226070520.png" width="600" alt="FluentTranslator Screenshot 3">
+  <p><em>Page Translation</em></p>
+  
+  <img src=".screenshots/ScreenShot_20241226070545.png" width="600" alt="FluentTranslator Screenshot 4">
+  <p><em>Context Menu</em></p>
+  
+  <img src=".screenshots/ScreenShot_20241226070622.png" width="600" alt="FluentTranslator Screenshot 5">
+  <p><em>Settings Menu</em></p>
+  
+  <img src=".screenshots/ScreenShot_20241226070639.png" width="600" alt="FluentTranslator Screenshot 6">
+  <p><em>Language Selection</em></p>
+</div>
+
 ## 🔅 Development
 
 ### Tech Stack
