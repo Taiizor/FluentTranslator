@@ -10,6 +10,7 @@
 </div>
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore)
+[![Microsoft Edge](https://img.shields.io/badge/Edge-Add--on-blue?logo=microsoft-edge&logoColor=white)](https://microsoftedge.microsoft.com/addons)
 [![Mozilla Add-on](https://img.shields.io/badge/Firefox-Add-/orange?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org)
 ![Version](https://img.shields.io/badge/Version-1.0.0-green)
 
@@ -46,6 +47,11 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 2. Search for "FluentTranslator"
 3. Click "Add to Chrome"
 
+### Microsoft Edge
+1. Visit the [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons)
+2. Search for "FluentTranslator"
+3. Click "Get" to install
+
 ### Firefox
 1. Go to [Mozilla Add-ons](https://addons.mozilla.org)
 2. Search for "FluentTranslator"
@@ -63,20 +69,15 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 ### Tech Stack
 - **Frontend**: HTML5, CSS3, TailwindCSS
 - **Backend**: JavaScript
-- **Browser Compatibility**: Chrome, Firefox
+- **Browser Compatibility**: Chrome, Firefox, Edge
 - **Version**: Manifest V3
 
 ### Getting Started
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/FluentTranslator.git
-
-# Install dependencies
-npm install
-
-# Build the extension
-npm run build
-```
+1. Fork this repository
+2. Clone your forked repository
+3. Make your changes
+4. Test the extension in your browser
+5. Submit a pull request
 
 ##  🤕 Contributing
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before getting started.
