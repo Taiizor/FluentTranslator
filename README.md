@@ -13,6 +13,24 @@
 
 FluentTranslator is a cutting-edge browser extension designed to eliminate language barriers with seamless, instant translation capabilities. Whether you're browsing international websites, reading foreign articles, or communicating across languages, FluentTranslator provides a smooth, user-friendly translation experience.
 
+## 🖼️ Screenshots
+
+<details>
+<summary>Click to view screenshots</summary>
+
+<div align="center">
+  <img src=".screenshots/ScreenShot_20241226070410.png" width="600" alt="FluentTranslator Screenshot 1">
+  <img src=".screenshots/ScreenShot_20241226070441.png" width="600" alt="FluentTranslator Screenshot 2">
+  
+  <img src=".screenshots/ScreenShot_20241226070520.png" width="600" alt="FluentTranslator Screenshot 3">
+  <img src=".screenshots/ScreenShot_20241226070545.png" width="600" alt="FluentTranslator Screenshot 4">
+  
+  <img src=".screenshots/ScreenShot_20241226070622.png" width="600" alt="FluentTranslator Screenshot 5">
+  <img src=".screenshots/ScreenShot_20241226070639.png" width="600" alt="FluentTranslator Screenshot 6">
+</div>
+
+</details>
+
 ## ✨ Features
 
 ### 🌟 Multi-Method Translation
@@ -58,19 +76,6 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 3. Enable "Developer mode"
 4. Click "Load unpacked"
 5. Select the extension directory
-
-## 🖼️ Screenshots
-
-<div align="center">
-  <img src=".screenshots/ScreenShot_20241226070410.png" width="600" alt="FluentTranslator Screenshot 1">
-  <img src=".screenshots/ScreenShot_20241226070441.png" width="600" alt="FluentTranslator Screenshot 2">
-  
-  <img src=".screenshots/ScreenShot_20241226070520.png" width="600" alt="FluentTranslator Screenshot 3">
-  <img src=".screenshots/ScreenShot_20241226070545.png" width="600" alt="FluentTranslator Screenshot 4">
-  
-  <img src=".screenshots/ScreenShot_20241226070622.png" width="600" alt="FluentTranslator Screenshot 5">
-  <img src=".screenshots/ScreenShot_20241226070639.png" width="600" alt="FluentTranslator Screenshot 6">
-</div>
 
 ## 🔅 Development
 
