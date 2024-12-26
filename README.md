@@ -11,7 +11,7 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore)
 [![Mozilla Add-on](https://img.shields.io/badge/Firefox-Add-/orange?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org)
-[![Version](https://img.shields.io/badge/Version-1.0.0-green)
+![Version](https://img.shields.io/badge/Version-1.0.0-green)
 
 ## 🌁 Overview
 
