@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/icons/icon256.png" width="128" alt="FluentTranslator Logo">
+    <img src=".images/Logo.png" width="128" alt="FluentTranslator Logo">
     <h1>🌀 FluentTranslator</h1>
     <p>A powerful, intuitive browser translation extension that breaks language barriers</p>
 </div>
