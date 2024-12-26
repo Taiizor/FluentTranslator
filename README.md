@@ -62,7 +62,7 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 ## 🖼️ Screenshots
 
 <details>
-<summary>Click to view screenshots</summary>
+<summary>📸 View Application Screenshots (6 images)</summary>
 
 <div align="center">
   <img src=".screenshots/ScreenShot_20241226070410.png" width="600" alt="FluentTranslator Screenshot 1">
