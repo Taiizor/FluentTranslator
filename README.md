@@ -37,17 +37,17 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 
 ## 🔇 Installation
 
-### Chrome
+### Chrome (Coming Soon)
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore)
 2. Search for "FluentTranslator"
 3. Click "Add to Chrome"
 
-### Microsoft Edge
+### Microsoft Edge (Coming Soon)
 1. Visit the [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons)
 2. Search for "FluentTranslator"
 3. Click "Get" to install
 
-### Firefox
+### Firefox (Coming Soon)
 1. Go to [Mozilla Add-ons](https://addons.mozilla.org)
 2. Search for "FluentTranslator"
 3. Click "Add to Firefox"
