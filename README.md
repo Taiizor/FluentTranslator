@@ -2,11 +2,6 @@
     <img src="assets/icons/icon256.png" width="128" alt="FluentTranslator Logo">
     <h1>🌀 FluentTranslator</h1>
     <p>A powerful, intuitive browser translation extension that breaks language barriers</p>
-
-    <a href="#features">Features</a> •
-    <a href="#installation">Installation</a> ₂
-    <a href="#development">Development</a> •
-    <a href="#license">License</a>
 </div>
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore)
