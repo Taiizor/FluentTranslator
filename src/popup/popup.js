@@ -41,6 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const swapLanguages = document.getElementById('swapLanguages');
     const themeSwitch = document.getElementById('theme-switch');
 
+    sourceText.focus();
+
     // Check for selected text when popup opens
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         if (tabs[0] && tabs[0].id) {
@@ -51,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 if (response && response.text) {
                     sourceText.value = response.text;
+                    translatedText.focus();
                     translate();
                 }
             });
