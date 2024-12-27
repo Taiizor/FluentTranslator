@@ -143,11 +143,19 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Event listeners
-    translateBtn.addEventListener('click', translate);
+    translateBtn.addEventListener('click', () => {
+        translatedText.focus();
+        translate();
+    });
 
     sourceText.addEventListener('keydown', (e) => {
-        if (e.ctrlKey && e.key === 'Enter') {
-            translate();
+        if (e.key === 'Enter') {
+            if (e.shiftKey) {
+                return;
+            } else {
+                e.preventDefault();
+                translate();
+            }
         }
     });
 
