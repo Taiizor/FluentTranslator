@@ -136,13 +136,13 @@ const createTranslationPopup = () => {
                 </div>
             </div>
             <div class="fluent-translator-translator-divider">
-                <span class="fluent-translator-source-lang"></span>
+                <span class="fluent-translator-source-lang" style="margin-right: 8px;"></span>
                 <span class="fluent-translator-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M9.6,13.5h2.1v-2H9.6v2m6.3-2h-2.1v2h2.1v-2m-6.3-2h2.1v-2H9.6v2m6.3-2h-2.1v2h2.1v-2M12,3A9,9,0,0,0,3,12a9,9,0,0,0,9,9,9,9,0,0,0,9-9A9,9,0,0,0,12,3Z"/>
                     </svg>
                 </span>
-                <span class="fluent-translator-target-lang"></span>
+                <span class="fluent-translator-target-lang" style="margin-left: 8px;"></span>
             </div>
             <div class="fluent-translator-translator-result">
                 <div class="fluent-translator-translated-text"></div>
