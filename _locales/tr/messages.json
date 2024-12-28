@@ -123,11 +123,11 @@
     "message": "Sebuanca",
     "description": "Cebuano language name"
   },
-  "langChineseSimp": {
+  "langChineseSimplified": {
     "message": "Çince (Basitleştirilmiş)",
     "description": "Simplified Chinese language name"
   },
-  "langChineseTrad": {
+  "langChineseTraditional": {
     "message": "Çince (Geleneksel)",
     "description": "Traditional Chinese language name"
   },
