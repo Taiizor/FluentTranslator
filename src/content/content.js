@@ -136,9 +136,13 @@ const createTranslationPopup = () => {
                 </div>
             </div>
             <div class="fluent-translator-translator-divider">
-                <svg width="16" height="16" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M9.6,13.5h2.1v-2H9.6v2m6.3-2h-2.1v2h2.1v-2m-6.3-2h2.1v-2H9.6v2m6.3-2h-2.1v2h2.1v-2M12,3A9,9,0,0,0,3,12a9,9,0,0,0,9,9,9,9,0,0,0,9-9A9,9,0,0,0,12,3Z"/>
-                </svg>
+                <span class="fluent-translator-source-lang"></span>
+                <span class="fluent-translator-arrow">
+                    <svg width="16" height="16" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M9.6,13.5h2.1v-2H9.6v2m6.3-2h-2.1v2h2.1v-2m-6.3-2h2.1v-2H9.6v2m6.3-2h-2.1v2h2.1v-2M12,3A9,9,0,0,0,3,12a9,9,0,0,0,9,9,9,9,0,0,0,9-9A9,9,0,0,0,12,3Z"/>
+                    </svg>
+                </span>
+                <span class="fluent-translator-target-lang"></span>
             </div>
             <div class="fluent-translator-translator-result">
                 <div class="fluent-translator-translated-text"></div>
@@ -323,25 +327,24 @@ const positionPopup = (popup, selection) => {
 };
 
 // Translate text using Google Translate API
-const translateText = async (text, targetLang) => {
+async function translateText(text, targetLang) {
     try {
-        const response = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&dt=ld&dt=qca&q=${encodeURIComponent(text)}`);
+        const response = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=' + targetLang + '&dt=t&q=' + encodeURIComponent(text));
         const data = await response.json();
         
-        // Save detected language
-        const detectedLanguage = data[2] || 'auto';
-        return {
-            translatedText: data[0].map(item => item[0]).join(''),
-            detectedLanguage: detectedLanguage
-        };
+        const translatedText = data[0].map(item => item[0]).join('');
+        const detectedLanguage = data[2];
+        
+        // Update language info in popup
+        document.querySelector('.fluent-translator-source-lang').textContent = detectedLanguage + ' ';
+        document.querySelector('.fluent-translator-target-lang').textContent = ' ' +targetLang;
+        
+        return translatedText;
     } catch (error) {
-        console.log('Translation error:', error);
-        return {
-            translatedText: chrome.i18n.getMessage("translationFailed"),
-            detectedLanguage: 'auto'
-        };
+        console.error('Translation error:', error);
+        return chrome.i18n.getMessage("translationFailed");
     }
-};
+}
 
 // Initialize popup and selection icon
 let popup = createTranslationPopup();
@@ -465,8 +468,7 @@ selectionIcon.addEventListener('click', async () => {
         positionPopup(popup, fakeSelection);
         
         // Then perform translation
-        const { translatedText, detectedLanguage } = await translateText(lastSelectedText, chrome.i18n.getUILanguage());
-        popup.setAttribute('data-source-lang', detectedLanguage);
+        const translatedText = await translateText(lastSelectedText, chrome.i18n.getUILanguage());
         popup.querySelector('.fluent-translator-translated-text').textContent = translatedText;
     } catch (error) {
         console.log('Translation error:', error);
@@ -491,8 +493,7 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
                 positionPopup(popup, selection);
                 
                 // Then perform translation
-                const { translatedText, detectedLanguage } = await translateText(request.text, request.targetLang);
-                popup.setAttribute('data-source-lang', detectedLanguage);
+                const translatedText = await translateText(request.text, request.targetLang);
                 popup.querySelector('.fluent-translator-translated-text').textContent = translatedText;
             }
         } catch (error) {
