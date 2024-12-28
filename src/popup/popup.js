@@ -144,6 +144,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event listeners
     translateBtn.addEventListener('click', () => {
+        if (!sourceText.value){
+            sourceText.focus();
+            return; 
+        }
+
         translatedText.focus();
         translate();
     });
