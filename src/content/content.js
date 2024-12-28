@@ -469,8 +469,8 @@ async function translateText(text, targetLang) {
             targetLanguage = getLanguageName(detectedLanguage);
         }
 
-        document.querySelector('.fluent-translator-source-lang').textContent = sourceLanguage  + ' ';
-        document.querySelector('.fluent-translator-target-lang').textContent = ' ' + targetLanguage;
+        document.querySelector('.fluent-translator-source-lang').textContent = sourceLanguage;
+        document.querySelector('.fluent-translator-target-lang').textContent = targetLanguage;
         
         return translatedText;
     } catch (error) {
