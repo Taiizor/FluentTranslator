@@ -448,8 +448,8 @@ async function translateText(text, targetLang) {
         const detectedLanguage = data[2];
         
         // Update language info in popup with full language names
-        document.querySelector('.fluent-translator-source-lang').textContent = chrome.i18n.getMessage("lang" + getLanguageName(detectedLanguage)) ?? getLanguageName(detectedLanguage)  + ' ';
-        document.querySelector('.fluent-translator-target-lang').textContent = ' ' + chrome.i18n.getMessage("lang" + getLanguageName(targetLang)) ?? getLanguageName(targetLang);
+        document.querySelector('.fluent-translator-source-lang').textContent = chrome.i18n.getMessage("lang" + getLanguageName(detectedLanguage)) || getLanguageName(detectedLanguage)  + ' ';
+        document.querySelector('.fluent-translator-target-lang').textContent = ' ' + chrome.i18n.getMessage("lang" + getLanguageName(targetLang)) || getLanguageName(targetLang);
         
         return translatedText;
     } catch (error) {
