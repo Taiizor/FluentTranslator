@@ -435,7 +435,17 @@ function getLanguageName(code) {
         'yo': 'Yoruba',
         'zu': 'Zulu'
     };
-    return languages[code] || code;
+
+    if (languages[code] && languages[code].length > 0) {
+        return languages[code];
+    } else if (code.includes("-")) {
+        return getLanguageName(code.split("-")[0]);
+    }
+    else if (code.includes("_")) {
+        return getLanguageName(code.split("_")[0]);
+    } else {
+        return code;
+    }
 }
 
 // Translate text using Google Translate API
@@ -448,8 +458,19 @@ async function translateText(text, targetLang) {
         const detectedLanguage = data[2];
         
         // Update language info in popup with full language names
-        document.querySelector('.fluent-translator-source-lang').textContent = chrome.i18n.getMessage("lang" + getLanguageName(detectedLanguage)) || getLanguageName(detectedLanguage)  + ' ';
-        document.querySelector('.fluent-translator-target-lang').textContent = ' ' + chrome.i18n.getMessage("lang" + getLanguageName(targetLang)) || getLanguageName(targetLang);
+        var sourceLanguage = chrome.i18n.getMessage("lang" + getLanguageName(detectedLanguage));
+        var targetLanguage = chrome.i18n.getMessage("lang" + getLanguageName(targetLang));
+
+        if (sourceLanguage == null || sourceLanguage == undefined || sourceLanguage.length == 0) {
+            sourceLanguage = getLanguageName(detectedLanguage);
+        }
+
+        if (targetLanguage == null || targetLanguage == undefined || targetLanguage.length == 0) {
+            targetLanguage = getLanguageName(detectedLanguage);
+        }
+
+        document.querySelector('.fluent-translator-source-lang').textContent = sourceLanguage  + ' ';
+        document.querySelector('.fluent-translator-target-lang').textContent = ' ' + targetLanguage;
         
         return translatedText;
     } catch (error) {
