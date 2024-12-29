@@ -65,14 +65,14 @@ FluentTranslator is a cutting-edge browser extension designed to eliminate langu
 <summary>📸 View Application Screenshots (6 images)</summary>
 
 <div align="center">
-  <img src=".screenshots/ScreenShot_20241226070410.png" width="600" alt="FluentTranslator Screenshot 1">
-  <img src=".screenshots/ScreenShot_20241226070441.png" width="600" alt="FluentTranslator Screenshot 2">
+  <img src=".screenshots/DarkInterfaceEmpty.png" width="600" alt="FluentTranslator Screenshot 1">
+  <img src=".screenshots/LightInterfaceEmpty.png" width="600" alt="FluentTranslator Screenshot 2">
   
-  <img src=".screenshots/ScreenShot_20241226070520.png" width="600" alt="FluentTranslator Screenshot 3">
-  <img src=".screenshots/ScreenShot_20241226070545.png" width="600" alt="FluentTranslator Screenshot 4">
+  <img src=".screenshots/DarkInterface.png" width="600" alt="FluentTranslator Screenshot 3">
+  <img src=".screenshots/LightInterface.png" width="600" alt="FluentTranslator Screenshot 4">
   
-  <img src=".screenshots/ScreenShot_20241226070622.png" width="600" alt="FluentTranslator Screenshot 5">
-  <img src=".screenshots/ScreenShot_20241226070639.png" width="600" alt="FluentTranslator Screenshot 6">
+  <img src=".screenshots/DarkPopup.png" width="600" alt="FluentTranslator Screenshot 5">
+  <img src=".screenshots/LightPopup.png" width="600" alt="FluentTranslator Screenshot 6">
 </div>
 
 </details>
