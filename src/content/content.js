@@ -15,12 +15,51 @@ const positionSelectionIcon = (icon, selection) => {
     const scrollX = window.scrollX || window.pageXOffset;
     const scrollY = window.scrollY || window.pageYOffset;
 
-    // Find the center top point of the selected text
-    const centerX = rect.left + (rect.width / 2);
-
-    // Position the icon
+    // Make icon temporarily visible but hidden to calculate its dimensions
+    icon.style.visibility = 'hidden';
+    icon.style.display = 'block';
+    
+    // Get icon dimensions
+    const iconRect = icon.getBoundingClientRect();
+    const iconHeight = iconRect.height;
+    const iconWidth = iconRect.width;
+    
+    // Get viewport dimensions
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    
+    // Calculate initial center position
+    let centerX = rect.left + (rect.width / 2);
+    let posY = rect.top;
+    
+    // Adjust horizontal position if icon would overflow
+    if (centerX - (iconWidth / 2) < 0) {
+        centerX = iconWidth / 2;
+    } else if (centerX + (iconWidth / 2) > viewportWidth) {
+        centerX = viewportWidth - (iconWidth / 2);
+    }
+    
+    // Determine whether to show icon above or below selection
+    const spaceAbove = rect.top;
+    const spaceBelow = viewportHeight - rect.bottom;
+    const showAbove = spaceAbove > spaceBelow && spaceAbove > iconHeight;
+    
+    // Set vertical position and transform
+    if (showAbove) {
+        icon.style.transform = 'translate(-50%, -100%)';
+    } else {
+        icon.style.transform = 'translate(-50%, 0)';
+        posY = rect.bottom;
+    }
+    
+    // Set final position
     icon.style.left = `${centerX + scrollX}px`;
-    icon.style.top = `${rect.top + scrollY}px`;
+    icon.style.top = `${posY + scrollY}px`;
+    
+    // Show icon after positioning
+    requestAnimationFrame(() => {
+        icon.style.visibility = 'visible';
+    });
 };
 
 // Make popup draggable
