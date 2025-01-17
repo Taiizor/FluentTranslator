@@ -308,19 +308,48 @@ const positionPopup = (popup, selection) => {
     const scrollX = window.scrollX || window.pageXOffset;
     const scrollY = window.scrollY || window.pageYOffset;
 
-    // Find the center top point of the selected text
-    const centerX = rect.left + (rect.width / 2);
-
-    // Position the popup
+    // Make popup temporarily visible but hidden to calculate its dimensions
     popup.style.visibility = 'hidden';
     popup.style.display = 'block';
     
-    // Set position
+    // Get popup dimensions
+    const popupRect = popup.getBoundingClientRect();
+    const popupHeight = popupRect.height;
+    const popupWidth = popupRect.width;
+    
+    // Get viewport dimensions
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    
+    // Calculate initial center position
+    let centerX = rect.left + (rect.width / 2);
+    let posY = rect.top;
+    
+    // Adjust horizontal position if popup would overflow
+    if (centerX - (popupWidth / 2) < 0) {
+        centerX = popupWidth / 2;
+    } else if (centerX + (popupWidth / 2) > viewportWidth) {
+        centerX = viewportWidth - (popupWidth / 2);
+    }
+    
+    // Determine whether to show popup above or below selection
+    const spaceAbove = rect.top;
+    const spaceBelow = viewportHeight - rect.bottom;
+    const showAbove = spaceAbove > spaceBelow && spaceAbove > popupHeight;
+    
+    // Set vertical position
+    if (showAbove) {
+        popup.style.transform = 'translate(-50%, -100%) translateY(-10px)';
+    } else {
+        popup.style.transform = 'translate(-50%, 0) translateY(10px)';
+        posY = rect.bottom;
+    }
+    
+    // Set final position
     popup.style.left = `${centerX + scrollX}px`;
-    popup.style.top = `${rect.top + scrollY}px`;
-    popup.style.transform = 'translate(-50%, -100%) translateY(-10px)';
-
-    // Show after one frame
+    popup.style.top = `${posY + scrollY}px`;
+    
+    // Show popup after positioning
     requestAnimationFrame(() => {
         popup.style.visibility = 'visible';
     });
