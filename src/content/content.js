@@ -876,3 +876,34 @@ const observer = new MutationObserver((mutations) => {
     }
 });
 observer.observe(document.body, { childList: true, subtree: true });
+
+// Show translation for iframe selections
+const showTranslation = async (selectedText, popup, rect) => {
+    if (!selectedText || isTranslating) return;
+    
+    try {
+        isTranslating = true;
+        popup.style.display = 'none';
+
+        // Set source text
+        popup.querySelector('.fluent-translator-source-text').textContent = selectedText;
+            
+        // Position popup based on selection
+        const fakeSelection = {
+            getRangeAt: () => ({
+                getBoundingClientRect: () => rect
+            }),
+            rangeCount: 1
+        };
+        positionPopup(popup, fakeSelection);
+        
+        // Perform translation
+        const translatedText = await translateText(selectedText, chrome.i18n.getUILanguage());
+        popup.querySelector('.fluent-translator-translated-text').textContent = translatedText;
+    } catch (error) {
+        console.log('Translation error:', error);
+        closePopup();
+    } finally {
+        isTranslating = false;
+    }
+};
