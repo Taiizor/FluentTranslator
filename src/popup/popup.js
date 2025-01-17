@@ -105,9 +105,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const languages = getLanguages(); // from languages.js
         const browserLang = navigator.language.split('-')[0];
         
+        // Sort languages alphabetically, but keep 'auto' at the top
+        languages.sort((a, b) => {
+            if (a.code === 'auto') return -1;
+            if (b.code === 'auto') return 1;
+            
+            const nameA = chrome.i18n.getMessage(`lang${a.name}`) || a.name;
+            const nameB = chrome.i18n.getMessage(`lang${b.name}`) || b.name;
+            return nameA.localeCompare(nameB);
+        });
+        
         languages.forEach(lang => {
-            const sourceOption = new Option(lang.name, lang.code);
-            const targetOption = new Option(lang.name, lang.code);
+            // Translated language name, if not available use original name
+            const translatedName = chrome.i18n.getMessage(`lang${lang.name}`) || lang.name;
+            const sourceOption = new Option(translatedName, lang.code);
+            const targetOption = new Option(translatedName, lang.code);
             
             sourceLanguage.add(sourceOption);
             targetLanguage.add(targetOption);
