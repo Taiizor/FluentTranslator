@@ -563,8 +563,35 @@ const setTheme = (theme) => {
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     try {
         if (request.action === "getSelectedText") {
-            const selectedText = window.getSelection().toString().trim();
-            sendResponse({ text: selectedText });
+            let selectedText = '';
+            
+            // Check main page selection
+            const mainSelection = window.getSelection().toString().trim();
+            if (mainSelection) {
+                selectedText = mainSelection;
+            } else {
+                // Check iframes
+                const iframes = document.getElementsByTagName('iframe');
+                for (const iframe of iframes) {
+                    try {
+                        // Same origin check
+                        if (iframe.src.startsWith(window.location.origin) || iframe.src === '' || iframe.src === 'about:blank') {
+                            const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                            const iframeSelection = iframeDoc.getSelection().toString().trim();
+                            if (iframeSelection) {
+                                selectedText = iframeSelection;
+                                break;
+                            }
+                        }
+                    } catch (e) {
+                        // Cross-origin iframe error
+                        console.log('Cross-origin iframe access denied');
+                    }
+                }
+            }
+            
+            sendResponse({text: selectedText});
+            return true;
         } else if (request.action === "setTheme") {
             // Theme handling
             document.documentElement.setAttribute('data-theme', request.theme);
@@ -710,7 +737,33 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
 // Message listener
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "getSelectedText") {
-        const selectedText = window.getSelection().toString().trim();
+        let selectedText = '';
+        
+        // Check main page selection
+        const mainSelection = window.getSelection().toString().trim();
+        if (mainSelection) {
+            selectedText = mainSelection;
+        } else {
+            // Check iframes
+            const iframes = document.getElementsByTagName('iframe');
+            for (const iframe of iframes) {
+                try {
+                    // Same origin check
+                    if (iframe.src.startsWith(window.location.origin) || iframe.src === '' || iframe.src === 'about:blank') {
+                        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                        const iframeSelection = iframeDoc.getSelection().toString().trim();
+                        if (iframeSelection) {
+                            selectedText = iframeSelection;
+                            break;
+                        }
+                    }
+                } catch (e) {
+                    // Cross-origin iframe error
+                    console.log('Cross-origin iframe access denied');
+                }
+            }
+        }
+        
         sendResponse({text: selectedText});
         return true;
     }
