@@ -715,3 +715,111 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         return true;
     }
 });
+
+// New function to handle iframes
+const handleIframes = () => {
+    const iframes = document.getElementsByTagName('iframe');
+    
+    for (const iframe of iframes) {
+        try {
+            // Same origin check
+            if (iframe.src.startsWith(window.location.origin) || iframe.src === '' || iframe.src === 'about:blank') {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                
+                // Listen for selection event in iframe
+                iframeDoc.addEventListener('mouseup', (e) => {
+                    const selection = iframeDoc.getSelection();
+                    if (selection && selection.toString().trim().length > 0) {
+                        const icon = document.getElementById('fluent-translator-selection-icon');
+                        if (icon) {
+                            // Convert iframe's position to page position
+                            const iframeRect = iframe.getBoundingClientRect();
+                            const range = selection.getRangeAt(0);
+                            const rect = range.getBoundingClientRect();
+                            
+                            // Add iframe's offset
+                            const adjustedRect = new DOMRect(
+                                rect.x + iframeRect.x,
+                                rect.y + iframeRect.y,
+                                rect.width,
+                                rect.height
+                            );
+                            
+                            // Position selection icon
+                            positionSelectionIconForIframe(icon, adjustedRect);
+                            icon.style.display = 'block';
+                            
+                            // Click event listener
+                            icon.onclick = () => {
+                                const selectedText = selection.toString().trim();
+                                if (selectedText) {
+                                    const popup = document.getElementById('fluent-translator-popup');
+                                    if (popup) {
+                                        showTranslation(selectedText, popup, adjustedRect);
+                                    }
+                                }
+                            };
+                        }
+                    }
+                });
+            }
+        } catch (e) {
+            // Error handling for cross-origin iframes
+            console.log('Cross-origin iframe access denied');
+        }
+    }
+};
+
+// Special positioning function for iframe
+const positionSelectionIconForIframe = (icon, rect) => {
+    const scrollX = window.scrollX || window.pageXOffset;
+    const scrollY = window.scrollY || window.pageYOffset;
+    
+    icon.style.visibility = 'hidden';
+    icon.style.display = 'block';
+    
+    const iconRect = icon.getBoundingClientRect();
+    const iconHeight = iconRect.height;
+    const iconWidth = iconRect.width;
+    
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    
+    let centerX = rect.left + (rect.width / 2);
+    let posY = rect.top;
+    
+    if (centerX - (iconWidth / 2) < 0) {
+        centerX = iconWidth / 2;
+    } else if (centerX + (iconWidth / 2) > viewportWidth) {
+        centerX = viewportWidth - (iconWidth / 2);
+    }
+    
+    const spaceAbove = rect.top;
+    const spaceBelow = viewportHeight - rect.bottom;
+    const showAbove = spaceAbove > spaceBelow && spaceAbove > iconHeight;
+    
+    if (showAbove) {
+        icon.style.transform = 'translate(-50%, -100%)';
+    } else {
+        icon.style.transform = 'translate(-50%, 0)';
+        posY = rect.bottom;
+    }
+    
+    icon.style.left = `${centerX + scrollX}px`;
+    icon.style.top = `${posY + scrollY}px`;
+    
+    requestAnimationFrame(() => {
+        icon.style.visibility = 'visible';
+    });
+};
+
+// Check iframes when page loads and DOM changes
+document.addEventListener('DOMContentLoaded', handleIframes);
+const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+        if (mutation.addedNodes.length) {
+            handleIframes();
+        }
+    }
+});
+observer.observe(document.body, { childList: true, subtree: true });
